@@ -20,7 +20,7 @@
 
 
 
-
+////////////////////////join
  const a = ["abdullah", "umer", "ali"]
 const b = [1, 2, 3, 4]
 
@@ -28,16 +28,30 @@ const b = [1, 2, 3, 4]
   var d= c.join("/")
  document.write(d)
 
-
+////////////////////////slice
  const a = ["abdullah", "umer", "ali","Test","Amar"];
 
  var d = a.slice(1,4)
 
  document.write(d)
 
-
+////////////////////////splice
 const a = ["abdullah", "umer", "ali","Test","Amar"];
 
  a.splice(1,2,"ok")
 
 document.write(a)
+
+
+
+
+
+
+////////////////////////isArray
+
+
+const a = ["abdullah", "umer", "ali","Test","Amar"];
+
+ const  b=Array.isArray(a)
+
+document.write(b)
