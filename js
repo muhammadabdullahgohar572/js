@@ -114,7 +114,7 @@ document.write(b)
 
 
 
-////////////////////////loop
+////////////////////////foreachloop
 
 const a = [{ name: "abdullah" }, { name: "umer" }, { name: "ali" }];
 
@@ -123,3 +123,9 @@ a.forEach((item) => {
   document.write(item.name);
 });
 
+
+////////////////////////loop
+ const a = [{ name: "abdullah" }, { name: "umer" }, { name: "ali" }];
+for (let i = 0; i < a.length; i++) {
+  document.write(a[i].name+"<br/>");
+}
