@@ -129,3 +129,20 @@ a.forEach((item) => {
 for (let i = 0; i < a.length; i++) {
   document.write(a[i].name+"<br/>");
 }
+
+
+
+
+
+////////////////////////table
+
+<input type="text" placeholder="enter a value" id="value">
+<button onclick="generateTable()">Generate Table</button>
+
+function generateTable() {
+  const value = parseInt(document.getElementById("value").value);
+
+  for (let i = 1; i <11; i++) {
+    document.write(value + " x " + i + " = " + i * value + "<br>");
+  }
+}
