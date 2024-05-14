@@ -111,3 +111,15 @@ document.write(b)
 
 
 // document.write(person.age)
+
+
+
+////////////////////////loop
+
+const a = [{ name: "abdullah" }, { name: "umer" }, { name: "ali" }];
+
+
+a.forEach((item) => {
+  document.write(item.name);
+});
+
