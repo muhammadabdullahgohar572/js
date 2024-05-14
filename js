@@ -89,3 +89,25 @@ document.write(b)
 
 // var b = a.lastIndexOf("ali");
 // document.write(b);
+
+
+
+////////////////////////forEach
+//  const a = ["abdullah", "umer", "ali","Test","Amar"];
+
+
+// a.forEach(
+//    function (value,index) {
+//      document.write(  index,value+"<br/>")
+//    }
+//  )
+
+////////////////////////Object()
+// var person = new Object()
+
+// person.age = 18
+// person.id = 1;
+// person.name = "name";
+
+
+// document.write(person.age)
