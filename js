@@ -55,3 +55,37 @@ const a = ["abdullah", "umer", "ali","Test","Amar"];
  const  b=Array.isArray(a)
 
 document.write(b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////indexOf
+
+// const a = ["abdullah", "umer", "ali","Test","Amar"];
+
+//  const  b=a.indexOf("umer")
+// document.write(b)
+
+////////////////////////includes
+// const a = ["abdullah", "umer", "ali", "Test", "Amar"];
+
+// const b = a.includes("umer");
+// document.write(b);
+
+////////////////////////lastIndexOf
+// const a = ["abdullah", "umer", "ali", "Test", "Amar"];
+
+// var b = a.lastIndexOf("ali");
+// document.write(b);
